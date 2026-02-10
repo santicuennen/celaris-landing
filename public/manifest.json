@@ -1,0 +1,27 @@
+{
+  "name": "Celaris Tech - Enterprise DevOps & Cloud Solutions",
+  "short_name": "Celaris Tech",
+  "description": "Transforming infrastructure, securing your future. Expert AWS consulting, DevOps automation, and cloud security solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e5a96",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "technology"],
+  "lang": "en",
+  "dir": "ltr"
+}
