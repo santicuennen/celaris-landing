@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About", 
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Enterprise DevOps & Cloud Solutions",
+    "subtitle": "Transforming infrastructure, securing your future",
+    "cta1": "Get Started",
+    "cta2": "Learn More"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for modern enterprises",
+    "cta": "Explore"
+  },
+  "values": {
+    "title": "Why Choose Celaris Tech",
+    "subtitle": "Proven expertise, reliable support, measurable results"
+  },
+  "contact": {
+    "title": "Start Your Transformation",
+    "subtitle": "Ready to modernize your infrastructure? Let's discuss your project."
+  },
+  "form": {
+    "name": "Full Name",
+    "email": "Email Address", 
+    "company": "Company",
+    "service": "Service of Interest",
+    "message": "Tell us about your project",
+    "submit": "Send Consultation Request",
+    "sending": "Sending...",
+    "success": "Message sent! We'll be in touch soon.",
+    "error": "Failed to send. Please try again.",
+    "selectService": "Select a service",
+    "nameRequired": "Name is required",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Please enter a valid email"
+  },
+  "footer": {
+    "description": "Enterprise cloud and DevOps solutions that scale with your business.",
+    "quickLinks": "Quick Links",
+    "services": "Services", 
+    "contact": "Contact",
+    "email": "Email",
+    "copyright": "© 2025 Celaris Tech. All rights reserved."
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "language": {
+    "toggle": "Change language",
+    "english": "English", 
+    "spanish": "Español"
+  }
+}

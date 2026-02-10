@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Soluciones Enterprise DevOps & Cloud", 
+    "subtitle": "Transformando infraestructura, asegurando tu futuro",
+    "cta1": "Comenzar",
+    "cta2": "Saber Más"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones integrales para empresas modernas",
+    "cta": "Explorar"
+  },
+  "values": {
+    "title": "Por Qué Elegir Celaris Tech",
+    "subtitle": "Experiencia comprobada, soporte confiable, resultados medibles"
+  },
+  "contact": {
+    "title": "Inicia Tu Transformación",
+    "subtitle": "¿Listo para modernizar tu infraestructura? Hablemos de tu proyecto."
+  },
+  "form": {
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "company": "Empresa", 
+    "service": "Servicio de Interés",
+    "message": "Cuéntanos sobre tu proyecto",
+    "submit": "Enviar Solicitud",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado! Nos pondremos en contacto pronto.",
+    "error": "Error al enviar. Por favor intenta de nuevo.",
+    "selectService": "Selecciona un servicio",
+    "nameRequired": "El nombre es requerido",
+    "emailRequired": "El email es requerido", 
+    "emailInvalid": "Por favor ingresa un email válido"
+  },
+  "footer": {
+    "description": "Soluciones enterprise de cloud y DevOps que escalan con tu negocio.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Contacto", 
+    "email": "Email",
+    "copyright": "© 2025 Celaris Tech. Todos los derechos reservados."
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "light": "Modo claro",
+    "dark": "Modo oscuro"
+  },
+  "language": {
+    "toggle": "Cambiar idioma",
+    "english": "English",
+    "spanish": "Español"
+  }
+}

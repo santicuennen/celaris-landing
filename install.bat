@@ -1,0 +1,6 @@
+@echo off
+echo Installing Celaris Tech dependencies...
+npm install
+echo.
+echo Starting development server...
+npm run dev
