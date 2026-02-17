@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://celaris.tech';
+  const baseUrl = 'https://celaristech.com';
   const lastModified = new Date();
 
   return [

@@ -59,26 +59,8 @@ export default function Values() {
           })}
         </div>
 
-        {/* Stats Section */}
+        {/* Bottom border decoration */}
         <div className="mt-20 pt-16 border-t border-gray-200 dark:border-gray-700">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
-              <div className="text-3xl font-bold text-primary dark:text-secondary mb-2">15+</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
-            </div>
-            <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              <div className="text-3xl font-bold text-primary dark:text-secondary mb-2">100+</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
-            </div>
-            <div className="animate-fade-in" style={{ animationDelay: '0.3s' }}>
-              <div className="text-3xl font-bold text-primary dark:text-secondary mb-2">24/7</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">Support Available</div>
-            </div>
-            <div className="animate-fade-in" style={{ animationDelay: '0.4s' }}>
-              <div className="text-3xl font-bold text-primary dark:text-secondary mb-2">99.9%</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">Uptime Guarantee</div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

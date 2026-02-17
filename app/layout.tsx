@@ -7,14 +7,14 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://celaris.tech'),
+  metadataBase: new URL('https://celaristech.com'),
   title: {
-    default: 'Celaris Tech - Enterprise DevOps & Cloud Solutions',
+    default: 'Celaris Tech - AWS Cloud, Data & DevOps Solutions',
     template: '%s | Celaris Tech'
   },
-  description: 'Transforming infrastructure, securing your future. Specializing in AWS infrastructure, DevOps automation, security compliance, and Amazon Connect contact center solutions.',
-  keywords: ['DevOps Solutions', 'Cloud Infrastructure', 'AWS Consulting', 'Security Compliance', 'Amazon Connect', 'Enterprise Solutions', 'CI/CD Pipeline', 'Infrastructure as Code', 'Cloud Migration', 'DevOps Automation'],
-  authors: [{ name: 'Celaris Tech', url: 'https://celaris.tech' }],
+  description: 'AWS cloud solutions: migrations, data warehousing, DevOps automation, and Amazon Connect contact centers. We help businesses build and scale on AWS.',
+  keywords: ['AWS Consulting', 'Cloud Migration', 'Data Warehouse', 'AWS Redshift', 'DevOps', 'Amazon Connect', 'ETL Pipelines', 'Infrastructure as Code', 'Terraform', 'AWS Architecture', 'Cloud Solutions', 'Data Analytics AWS'],
+  authors: [{ name: 'Celaris Tech', url: 'https://celaristech.com' }],
   creator: 'Celaris Tech',
   publisher: 'Celaris Tech',
   robots: {
@@ -29,46 +29,40 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/logo.png',
-    shortcut: '/logo.png',
-    apple: '/logo.png',
+    icon: '/dark-mode-logo.png',
+    shortcut: '/dark-mode-logo.png',
+    apple: '/dark-mode-logo.png',
   },
   manifest: '/manifest.json',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     alternateLocale: ['es_ES'],
-    url: 'https://celaris.tech',
+    url: 'https://celaristech.com',
     siteName: 'Celaris Tech',
-    title: 'Celaris Tech - Enterprise DevOps & Cloud Solutions',
-    description: 'Transforming infrastructure, securing your future. Expert AWS consulting, DevOps automation, and cloud security solutions.',
+    title: 'Celaris Tech - AWS Cloud, Data & DevOps Solutions',
+    description: 'AWS cloud solutions: migrations, data warehousing, DevOps automation, and Amazon Connect contact centers.',
     images: [
       {
-        url: '/logo.png',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Celaris Tech - Enterprise Cloud Solutions',
+        alt: 'Celaris Tech - AWS Cloud Solutions',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Celaris Tech - Enterprise DevOps & Cloud Solutions',
-    description: 'Transforming infrastructure, securing your future',
-    images: ['/logo.png'],
-    creator: '@celaristech',
+    title: 'Celaris Tech - AWS Cloud, Data & DevOps Solutions',
+    description: 'AWS migrations, data warehousing, DevOps, and contact centers',
+    images: ['/og-image.png'],
   },
   alternates: {
-    canonical: 'https://celaris.tech',
+    canonical: 'https://celaristech.com',
     languages: {
-      'en': 'https://celaris.tech/en',
-      'es': 'https://celaris.tech/es',
+      'en': 'https://celaristech.com/en',
+      'es': 'https://celaristech.com/es',
     },
-  },
-  verification: {
-    google: 'your-google-verification-code',
-    // yandex: 'your-yandex-verification-code',
-    // bing: 'your-bing-verification-code',
   },
 };
 
@@ -99,55 +93,29 @@ export default async function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'Organization',
               name: 'Celaris Tech',
-              url: 'https://celaris.tech',
-              logo: 'https://celaris.tech/logo.png',
-              description: 'Enterprise DevOps & Cloud Solutions specializing in AWS infrastructure, DevOps automation, security compliance, and Amazon Connect contact center solutions.',
-              address: {
-                '@type': 'PostalAddress',
-                addressCountry: 'US'
-              },
+              url: 'https://celaristech.com',
+              logo: 'https://celaristech.com/logo.png',
+              description: 'AWS cloud solutions: migrations, data warehousing, DevOps automation, and Amazon Connect contact centers.',
               contactPoint: {
                 '@type': 'ContactPoint',
                 contactType: 'Sales',
-                email: 's.cuennen@outlook.com',
                 availableLanguage: ['English', 'Spanish']
               },
-              sameAs: [
-                'https://github.com/BlueCoreTechnologies'
-              ],
               areaServed: 'Worldwide',
               serviceType: [
-                'DevOps Solutions',
-                'Cloud Infrastructure',
-                'Security & Compliance',
+                'AWS Cloud Migration',
+                'Data Warehouse Solutions',
+                'DevOps Automation',
                 'Amazon Connect Contact Centers'
               ],
-              offers: {
-                '@type': 'AggregateOffer',
-                offerCount: 4,
-                offers: [
-                  {
-                    '@type': 'Offer',
-                    name: 'DevOps Solutions',
-                    description: 'CI/CD Pipeline Automation, Infrastructure as Code, Container Orchestration'
-                  },
-                  {
-                    '@type': 'Offer',
-                    name: 'Cloud Infrastructure',
-                    description: 'AWS Architecture Design, Migration Planning, Cost Optimization'
-                  },
-                  {
-                    '@type': 'Offer',
-                    name: 'Security & Compliance',
-                    description: 'Security Audits, Compliance Assessment, Vulnerability Scanning'
-                  },
-                  {
-                    '@type': 'Offer',
-                    name: 'Amazon Connect Contact Centers',
-                    description: 'Contact Center Setup, IVR Configuration, Analytics & Reporting'
-                  }
-                ]
-              }
+              knowsAbout: [
+                'Amazon Web Services',
+                'AWS Redshift',
+                'Terraform',
+                'Docker',
+                'CI/CD',
+                'Data Engineering'
+              ]
             })
           }}
         />

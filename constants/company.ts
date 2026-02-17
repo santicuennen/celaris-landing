@@ -1,79 +1,78 @@
 export const company = {
   name: "Celaris Tech",
-  tagline: "Enterprise Cloud & DevOps Solutions",
-  description: "Specializing in AWS infrastructure, DevOps automation, security compliance, and Amazon Connect contact center solutions.",
+  tagline: "AWS Cloud, Data & DevOps Solutions",
+  description: "Specializing in AWS infrastructure, cloud migrations, data warehousing, DevOps automation, and Amazon Connect contact center solutions.",
   
   services: [
     {
-      id: "devops",
-      name: "DevOps Solutions",
-      icon: "Zap",
-      description: "Streamline deployment pipelines, automate infrastructure, reduce time-to-market with proven CI/CD strategies.",
+      id: "data",
+      name: "Data & Analytics",
+      icon: "Database",
+      description: "Build scalable data warehouses and analytics pipelines on AWS. Transform raw data into actionable insights.",
       features: [
-        "CI/CD Pipeline Automation",
-        "Infrastructure as Code", 
-        "Container Orchestration",
-        "Monitoring & Logging"
+        "Data Warehouse Design",
+        "ETL/ELT Pipelines",
+        "AWS Redshift & Athena",
+        "Business Intelligence"
       ]
     },
     {
-      id: "cloud",
-      name: "Cloud Infrastructure", 
+      id: "migrations",
+      name: "Cloud Migrations", 
       icon: "Cloud",
-      description: "Design, migrate, and optimize AWS infrastructure for scale, performance, and cost efficiency.",
+      description: "Migrate your infrastructure to AWS with minimal downtime. From planning to execution, we handle the complexity.",
       features: [
-        "Architecture Design",
-        "Migration Planning", 
-        "Cost Optimization",
-        "Auto-scaling Solutions"
+        "Migration Assessment",
+        "Lift & Shift / Refactoring",
+        "Database Migration (DMS)",
+        "Zero-downtime Strategies"
       ]
     },
     {
-      id: "security",
-      name: "Security & Compliance",
-      icon: "Shield", 
-      description: "Comprehensive audits, compliance frameworks (SOC2, HIPAA, ISO), and security hardening.",
+      id: "devops",
+      name: "DevOps & Automation",
+      icon: "Zap",
+      description: "Streamline deployments, automate infrastructure, and accelerate your delivery pipeline.",
       features: [
-        "Security Audits",
-        "Compliance Assessment",
-        "Vulnerability Scanning", 
-        "Policy Implementation"
+        "CI/CD Pipelines",
+        "Infrastructure as Code",
+        "Container Orchestration",
+        "Monitoring & Observability"
       ]
     },
     {
       id: "contact-center",
-      name: "Contact Center (Amazon Connect)",
+      name: "Contact Centers",
       icon: "Headphones",
-      description: "Build and scale customer engagement centers with Amazon Connect - cloud-native, flexible, cost-effective.",
+      description: "Build cloud-native contact centers with Amazon Connect. Scalable, flexible, and cost-effective.",
       features: [
         "Amazon Connect Setup",
-        "IVR Configuration", 
-        "Analytics & Reporting",
-        "Integration Services"
+        "IVR & Call Flows",
+        "CRM Integrations",
+        "Real-time Analytics"
       ]
     }
   ],
   
   values: [
     { 
-      title: "Expert Team", 
-      description: "15+ years combined AWS & enterprise experience",
+      title: "AWS Specialists", 
+      description: "Deep expertise across the AWS ecosystem",
       icon: "Users"
     },
     { 
-      title: "24/7 Support", 
-      description: "Always here when you need us",
+      title: "Dedicated Support", 
+      description: "We're with you from kickoff to production",
       icon: "Clock"
     },
     { 
-      title: "Proven ROI", 
-      description: "Data-driven results that matter to your business",
+      title: "Results-Focused", 
+      description: "Solutions designed around your business goals",
       icon: "TrendingUp"
     }
   ],
   
   contact: {
-    email: "s.cuennen@outlook.com",
     // EmailJS credentials (safe to include - public key only)
     emailjs: {
       serviceId: "service_f0k0p22",

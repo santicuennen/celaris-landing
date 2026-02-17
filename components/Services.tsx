@@ -1,13 +1,13 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { ArrowRight, Zap, Cloud, Shield, Headphones } from 'lucide-react';
+import { ArrowRight, Zap, Cloud, Database, Headphones } from 'lucide-react';
 import { company } from '@/constants/company';
 
 const iconMap = {
   Zap,
   Cloud,
-  Shield,
+  Database,
   Headphones,
 };
 
@@ -86,13 +86,13 @@ export default function Services() {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            Need a custom solution? We&apos;d love to discuss your specific requirements.
+            {t('services.customSolution')}
           </p>
           <button
             onClick={scrollToContact}
             className="btn-primary hover-lift"
           >
-            Get Custom Quote
+            {t('services.customQuote')}
           </button>
         </div>
       </div>

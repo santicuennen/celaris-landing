@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://celaris.tech/sitemap.xml
+Sitemap: https://celaristech.com/sitemap.xml

@@ -33,16 +33,23 @@ export default function Header({ locale }: HeaderProps) {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm border-b border-gray-200 dark:border-gray-700">
+    <header className="absolute top-0 left-0 right-0 z-50 bg-gradient-to-b from-white via-white/90 to-transparent dark:from-gray-900 dark:via-gray-900/90 dark:to-transparent backdrop-blur-sm">
       <div className="container-custom">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <img 
-              src="/logo.png" 
-              alt={company.name}
-              className="h-10 w-auto"
-            />
+            <div className="w-10 h-10 flex items-center justify-center">
+              <img 
+                src="/logo.png" 
+                alt={company.name}
+                className="h-10 w-auto max-w-10 object-contain dark:hidden"
+              />
+              <img 
+                src="/dark-mode-logo.png" 
+                alt={company.name}
+                className="h-10 w-auto max-w-10 object-contain hidden dark:block"
+              />
+            </div>
             <span className="text-xl font-bold text-gray-900 dark:text-white">
               {company.name}
             </span>
@@ -112,7 +119,7 @@ export default function Header({ locale }: HeaderProps) {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
+          <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900">
             <nav className="flex flex-col space-y-4">
               <button
                 onClick={() => scrollToSection('services')}

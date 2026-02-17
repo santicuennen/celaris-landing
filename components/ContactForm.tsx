@@ -120,27 +120,15 @@ export default function ContactForm() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
-                  Get in Touch
+                  {t('contact.getInTouch')}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
-                  Ready to transform your infrastructure? Let&apos;s discuss how we can help your business scale and succeed.
+                  {t('contact.description')}
                 </p>
               </div>
 
               <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <Send className="w-5 h-5 text-primary dark:text-secondary" />
-                  </div>
-                  <div>
-                    <div className="font-medium text-gray-900 dark:text-white">Email</div>
-                    <div className="text-gray-600 dark:text-gray-300">{company.contact.email}</div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Services List */}
-              <div>
+                {/* Services List */}
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-3">Our Services</h4>
                 <ul className="space-y-2">
                   {company.services.map((service) => (

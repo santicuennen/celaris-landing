@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Mail } from 'lucide-react';
 import { company } from '@/constants/company';
 
 export default function Footer() {
@@ -31,10 +30,6 @@ export default function Footer() {
             <p className="text-gray-300 mb-6 max-w-md">
               {t('footer.description')}
             </p>
-            <div className="flex items-center space-x-2 text-gray-300">
-              <Mail className="w-4 h-4" />
-              <span className="text-sm">{company.contact.email}</span>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -54,7 +49,7 @@ export default function Footer() {
                   onClick={() => scrollToSection('values')}
                   className="text-gray-300 hover:text-secondary transition-colors text-sm"
                 >
-                  About
+                  {t('nav.about')}
                 </button>
               </li>
               <li>

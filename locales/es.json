@@ -5,33 +5,45 @@
     "contact": "Contacto"
   },
   "hero": {
-    "title": "Soluciones Enterprise DevOps & Cloud", 
-    "subtitle": "Transformando infraestructura, asegurando tu futuro",
+    "title": "Soluciones AWS: Cloud, Datos y DevOps", 
+    "subtitle": "Ayudamos a empresas a migrar, construir y escalar en AWS",
     "cta1": "Comenzar",
-    "cta2": "Saber Más"
+    "cta2": "Nuestros Servicios",
+    "badge1": "Especialistas AWS",
+    "badge2": "Datos & Analytics",
+    "badge3": "Expertos DevOps"
   },
   "services": {
-    "title": "Nuestros Servicios",
-    "subtitle": "Soluciones integrales para empresas modernas",
-    "cta": "Explorar"
+    "title": "Qué Hacemos",
+    "subtitle": "Soluciones AWS de principio a fin para empresas modernas",
+    "cta": "Saber Más",
+    "customSolution": "¿Necesitas una solución a medida? Hablemos de tus requerimientos.",
+    "customQuote": "Consulta Gratuita"
   },
   "values": {
-    "title": "Por Qué Elegir Celaris Tech",
-    "subtitle": "Experiencia comprobada, soporte confiable, resultados medibles"
+    "title": "Por Qué Trabajar Con Nosotros",
+    "subtitle": "Un equipo de especialistas AWS listo para resolver tus desafíos en la nube",
+    "techStack": "Tecnologías Que Usamos",
+    "cloudPlatform": "Plataforma Cloud",
+    "iac": "Infraestructura como Código",
+    "containers": "Contenedores",
+    "dataWarehouse": "Data Warehouse"
   },
   "contact": {
-    "title": "Inicia Tu Transformación",
-    "subtitle": "¿Listo para modernizar tu infraestructura? Hablemos de tu proyecto."
+    "title": "Construyamos Juntos",
+    "subtitle": "Contanos sobre tu proyecto y te respondemos en menos de 24 horas.",
+    "getInTouch": "Contactanos",
+    "description": "¿Listo para migrar a la nube u optimizar tu infraestructura AWS? Queremos conocer tu proyecto."
   },
   "form": {
     "name": "Nombre Completo",
     "email": "Correo Electrónico",
     "company": "Empresa", 
     "service": "Servicio de Interés",
-    "message": "Cuéntanos sobre tu proyecto",
-    "submit": "Enviar Solicitud",
+    "message": "Contanos sobre tu proyecto",
+    "submit": "Enviar Mensaje",
     "sending": "Enviando...",
-    "success": "¡Mensaje enviado! Nos pondremos en contacto pronto.",
+    "success": "¡Mensaje enviado! Te contactamos en menos de 24 horas.",
     "error": "Error al enviar. Por favor intenta de nuevo.",
     "selectService": "Selecciona un servicio",
     "nameRequired": "El nombre es requerido",
@@ -39,7 +51,7 @@
     "emailInvalid": "Por favor ingresa un email válido"
   },
   "footer": {
-    "description": "Soluciones enterprise de cloud y DevOps que escalan con tu negocio.",
+    "description": "Soluciones AWS cloud que escalan con tu negocio. Migraciones, data warehousing, DevOps y más.",
     "quickLinks": "Enlaces Rápidos",
     "services": "Servicios",
     "contact": "Contacto", 

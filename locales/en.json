@@ -5,23 +5,35 @@
     "contact": "Contact"
   },
   "hero": {
-    "title": "Enterprise DevOps & Cloud Solutions",
-    "subtitle": "Transforming infrastructure, securing your future",
+    "title": "AWS Cloud, Data & DevOps Solutions",
+    "subtitle": "We help businesses migrate, build, and scale on AWS",
     "cta1": "Get Started",
-    "cta2": "Learn More"
+    "cta2": "Our Services",
+    "badge1": "AWS Specialists",
+    "badge2": "Data & Analytics",
+    "badge3": "DevOps Experts"
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "Comprehensive solutions for modern enterprises",
-    "cta": "Explore"
+    "title": "What We Do",
+    "subtitle": "End-to-end AWS solutions for modern businesses",
+    "cta": "Learn More",
+    "customSolution": "Need a custom solution? Let's talk about your specific requirements.",
+    "customQuote": "Get a Free Consultation"
   },
   "values": {
-    "title": "Why Choose Celaris Tech",
-    "subtitle": "Proven expertise, reliable support, measurable results"
+    "title": "Why Work With Us",
+    "subtitle": "A team of AWS specialists ready to tackle your cloud challenges",
+    "techStack": "Technologies We Work With",
+    "cloudPlatform": "Cloud Platform",
+    "iac": "Infrastructure as Code",
+    "containers": "Containerization",
+    "dataWarehouse": "Data Warehouse"
   },
   "contact": {
-    "title": "Start Your Transformation",
-    "subtitle": "Ready to modernize your infrastructure? Let's discuss your project."
+    "title": "Let's Build Together",
+    "subtitle": "Tell us about your project and we'll get back to you within 24 hours.",
+    "getInTouch": "Get in Touch",
+    "description": "Ready to move to the cloud or optimize your AWS infrastructure? We'd love to hear about your project."
   },
   "form": {
     "name": "Full Name",
@@ -29,9 +41,9 @@
     "company": "Company",
     "service": "Service of Interest",
     "message": "Tell us about your project",
-    "submit": "Send Consultation Request",
+    "submit": "Send Message",
     "sending": "Sending...",
-    "success": "Message sent! We'll be in touch soon.",
+    "success": "Message sent! We'll be in touch within 24 hours.",
     "error": "Failed to send. Please try again.",
     "selectService": "Select a service",
     "nameRequired": "Name is required",
@@ -39,7 +51,7 @@
     "emailInvalid": "Please enter a valid email"
   },
   "footer": {
-    "description": "Enterprise cloud and DevOps solutions that scale with your business.",
+    "description": "AWS cloud solutions that scale with your business. Migrations, data warehousing, DevOps, and more.",
     "quickLinks": "Quick Links",
     "services": "Services", 
     "contact": "Contact",
