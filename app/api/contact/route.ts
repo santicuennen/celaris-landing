@@ -72,8 +72,7 @@ function buildClientEmailHtml(name: string, service: string): string {
           <!-- Header -->
           <tr>
             <td style="background: linear-gradient(135deg, #1e5a96 0%, #164272 100%);padding:32px 40px;text-align:center;">
-              <img src="https://celaristech.com/dark-mode-logo.png" alt="Celaris Tech" width="48" height="48" style="margin-bottom:12px;" />
-              <h1 style="color:#ffffff;font-size:22px;margin:0;font-weight:700;">Celaris Tech</h1>
+              <img src="https://celaristech.com/dark-mode-logo.png" alt="Celaris Tech" width="120" height="120" style="margin-bottom:16px;border-radius:12px;" />
               <p style="color:#00bcd4;font-size:13px;margin:4px 0 0;letter-spacing:0.5px;">AWS Cloud, Data & DevOps Solutions</p>
             </td>
           </tr>
